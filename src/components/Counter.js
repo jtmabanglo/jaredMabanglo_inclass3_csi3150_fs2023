@@ -4,7 +4,7 @@ import "./Counter.css";
 const Counter = () => {
   const [counter, setCounter] = React.useState({ counterVal: 0 });
   //   function to handle subtraction to counter
-  function subtract() {
+  function subtract(e) {
     const newCounterValue = counter.counterVal - 1;
     setCounter((prevCounter) => ({
       counterVal: newCounterValue,
