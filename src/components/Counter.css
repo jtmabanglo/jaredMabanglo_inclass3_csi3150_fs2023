@@ -1,0 +1,19 @@
+.counterContainer {
+  display: flex;
+  align-items: center;
+  /* source for making container 100% of viewport height: https://stackoverflow.com/questions/1575141/how-to-make-a-div-100-height-of-the-browser-window#:~:text=100vw%20%3D%20100%25%20of%20the%20width,the%20height%20of%20the%20viewport.&text=100%25%20works%20differently%20for%20width,or%20width%20of%20the%20window.%22 */
+  height: 100vh;
+  justify-content: center;
+}
+
+button {
+  font-size: 40px;
+  margin: 50px;
+  padding: 50px;
+}
+
+input {
+  padding: 50px;
+  text-align: center;
+  font-size: 40px;
+}
